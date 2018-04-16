@@ -1,6 +1,6 @@
 const mongoClient = require("mongodb").MongoClient
-mongoClient.connect("mongodb://localhost:27017/crud")
-            .then(conn => global.conn = conn.db("crud"))
+mongoClient.connect("mongodb://magomes:ujbg45k2@naboo.mongodb.umbler.com:41049/magomesmongo")
+            .then(conn => global.conn = conn.db("magomesmongo"))
             .catch(err => console.log(err))
 
 function findAll(callback){  
